@@ -7,13 +7,15 @@ function App() {
     <>
     <div style={{ textAlign: 'center', maxWidth: '100%',margin: '0 auto',display: 'flex',justifyContent: 'center',
 alignItems: 'center', height: '13rem' }}>
-      <div className="mainbar"></div>
+      <div className="leftbar"></div>
+
       <img
         src="/agastya hospital image.png"
         alt="Agastya Hospital Logo"
         style={{ width: '170px', height: 'auto', borderRadius: '50%' }}
       />
-      <div className= "mainbar"></div>
+      
+      <div className= "rightbar"></div>
     </div>
     </>
   );
